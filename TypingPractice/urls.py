@@ -23,4 +23,5 @@ urlpatterns = [
     path("Practice/", include("Practice.urls")),
     path('', views.index, name='index'),
     path('LeaderBoard', views.leaderboard, name='LeaderBoard'),
+    #path('Account', views., )
 ]
