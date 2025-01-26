@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("Practice/", include("Practice.urls")),
     path('', views.index, name='index'),
+    path('LeaderBoard', views.leaderboard, name='LeaderBoard'),
 ]

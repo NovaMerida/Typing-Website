@@ -8,4 +8,11 @@ from django.views import generic
 from django.utils import timezone
 
 
+
 # Create your views here.
+#def index(request):
+#    return render(request, 'index.html')
+#def leaderboard(request):
+#    return render(request, 'leaderboard.html')
+def practice(request):
+    return render(request, 'PracticePage.html')
