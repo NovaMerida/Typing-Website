@@ -7,11 +7,17 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}"/>
     <title>Typing Practice</title>
 </head>
-<header>
-    <a class="Header" href="/LeaderBoard">LeaderBoard</a>
-    <a class="Header" href="/Practice">Practice</a>
-</header>
 <body>
-    <h1>Typing Practice</h1>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="/">TypingPractice</a></div>
+            <ul>
+                <li><a href="/LeaderBoard">Leaderboard</a></li>
+                <li><a href="/Practice">Practice</a></li>
+                <button class="btn" type="button"><a href="#">SignIn</a></button>
+                <button class="btn"><a href="#">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
 </body>
 </html>
